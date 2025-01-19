@@ -1,6 +1,13 @@
+:root{
+    --black-color : #000;
+    --dark-blue-color: darkblue;
+    --image-width: 150px;
+    --padding-10px: 10px;
+}
+
 nav{
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--dark-blue-color);
+    padding: var(--padding-10px);
 }
 
 nav a{
@@ -10,19 +17,19 @@ nav a{
 }
 
 h1{
-    color: darkblue;
+    color: var(--dark-blue-color);
 }
 
 img{
-    width: 150px;
+    width: var(--image-width);
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--black-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 p{
-    padding: 10px;
+    padding: var(--padding-10px);
 }
 
 main{
@@ -30,7 +37,7 @@ main{
 }
 
 main img{
-    width: 150px;
+    width: var(--image-width);
     height: auto;
 }
 
@@ -55,6 +62,6 @@ p{
 
 footer{
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--black-color);
     text-align: center;
 }
