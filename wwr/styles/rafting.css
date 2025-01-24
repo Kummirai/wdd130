@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  font-family: "Dancing script";
+  font-family: "Dancing script", sans-serif;
   color: var(--primary-color);
   background-color: #ffffffb9;
   position: absolute;
