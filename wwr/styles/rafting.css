@@ -1,0 +1,71 @@
+:root {
+  --primary-color: #2d3142;
+  --secondary-color: #ef8354;
+  --accent1-color: #ffffff;
+  --accent2-color: #4f5d75;
+}
+
+body {
+  font-family: Roboto, Arial, san-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+  background-color: #ef8354;
+}
+
+h1 {
+  font-family: "Dancing script";
+  color: var(--primary-color);
+  background-color: #ffffffb9;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero article {
+  width: 80%;
+  background-color: #2d3142d3;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.7rem;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero article img {
+  float: right;
+  width: 300px;
+  margin-left: 0.7rem;
+}
+
+.hero article p {
+  color: var(--accent1-color);
+  padding: 0.5rem;
+  font-weight: 300;
+  line-height: 1.3rem;
+  text-align: justify;
+}
+
+footer img {
+  width: 1rem;
+  height: auto;
+}
