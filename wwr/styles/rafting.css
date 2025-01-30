@@ -122,6 +122,11 @@ a {
   text-align: justify;
 }
 
+footer{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
 footer img {
   width: 1rem;
   height: auto;
