@@ -14,7 +14,7 @@ body {
 header{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  align-items: center;
+  place-items: center;
   padding: 1rem 0;
   border-bottom: 1px solid var(--accent2-color);
   margin-bottom: 2rem;
@@ -22,11 +22,10 @@ header{
 
 header img{
   width: 8rem;
-  margin-left: 6rem;
 }
+
 nav{
   display: flex;
-  
 }
 
 nav a{
