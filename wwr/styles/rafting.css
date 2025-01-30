@@ -2,13 +2,70 @@
   --primary-color: #2d3142;
   --secondary-color: #ef8354;
   --accent1-color: #ffffff;
-  --accent2-color: #4f5d75;
+  --accent2-color: #e4e4e4;
 }
 
 body {
   font-family: Roboto, Arial, san-serif;
   font-size: 15px;
   box-sizing: border-box;
+}
+
+header{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--accent2-color);
+  margin-bottom: 2rem;
+}
+
+header img{
+  width: 8rem;
+}
+nav{
+  display: flex;
+  
+}
+
+nav a{
+  display: block;
+  padding: 2rem;
+  color: var(--primary-color);
+}
+
+.first_section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 1rem 0;
+}
+
+.first_section h2{
+  grid-column: 1 / 4;
+  justify-self: center;
+}
+
+.first_section p{
+  text-align: justify;
+  padding: 0 1rem;
+}
+
+.second_section{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.second_section div{
+  display: flex;
+}
+
+figure img{
+  width: 100%;
+}
+
+.second_section h2{
+  text-align: center;
 }
 
 .hero {
