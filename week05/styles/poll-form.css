@@ -1,0 +1,67 @@
+:root{
+    --primary-color: #25273e;
+    --secondary-color: #1c1e33;
+    --accent-color: #cabfc1;
+    --accent2-color: #b8bdc4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", serif;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-size: 0.85rem;
+}
+
+header h1{
+    color: #fff;
+}
+
+form{
+    width: 450px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    display: grid;
+    box-shadow: 0 0 2px #fff;
+}
+
+fieldset{
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--accent-color);
+}
+
+legend{
+    padding: 0.5rem;
+    color: var(--accent-color);
+    font-size: 1.2rem;
+}
+
+input[type=text], input[type=email]{
+    padding: 0.5rem;
+    background-color: transparent;
+    border: 1px solid var(--accent2-color);
+    border-radius: 1rem;
+    color: var(--accent-color);
+}
+
+select{
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    background-color: transparent;
+    color: var(--accent-color);
+    border-radius: 1rem;
+}
+
+label{
+    padding-right: 1rem;
+}
