@@ -223,7 +223,6 @@ figcaption{
 }
 
 .contact-info{
-  height: 400;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: auto;
