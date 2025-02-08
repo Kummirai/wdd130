@@ -147,3 +147,35 @@ footer img {
   margin: 0;
   padding: 0;
 }
+
+
+/*Contact page styles*/
+
+.contact-info{
+  width: 70%;
+  height: 400;
+  background-color: #f0f0f0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* padding: 2rem; */
+ place-items: center;
+ margin: auto;
+}
+
+.contact-info article{
+  justify-self: center;
+}
+
+.contact-info iframe{
+  justify-self: end;
+  border: none;
+}
+
+
+.bold{
+  font-weight: 600;
+}
+
+.bold span{
+  font-weight: 400;
+}
