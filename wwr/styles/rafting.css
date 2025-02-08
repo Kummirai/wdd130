@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #2d3142;
+  --primary-color: #6c757d;
   --secondary-color: #ef8354;
   --accent1-color: #ffffff;
   --accent2-color: #e4e4e4;
@@ -9,6 +9,7 @@ body {
   font-family: Roboto, Arial, san-serif;
   font-size: 15px;
   box-sizing: border-box;
+  color: var(--primary-color);
 }
 
 header{
@@ -150,16 +151,45 @@ footer img {
 
 
 /*Contact page styles*/
+p, h2{
+  margin: 0;
+  padding: 0;
+}
+
+.connect{
+  padding: 2.5rem;
+}
+
+.connect h2, .employees-heading h2{
+  font-weight: 300;
+  font-size: 2.5rem;
+  color: #212529;
+}
+
+.connect p, .employees-heading p {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  padding: 1rem;
+  line-height: 1.5rem;
+}
+
+.connect, .employees-heading{
+  text-align: center;
+}
+
+.employees{
+  display: flex;
+  height: 300px;
+}
+
 
 .contact-info{
-  width: 70%;
   height: 400;
-  background-color: #f0f0f0;
+  background-color: #f7f7f7;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  /* padding: 2rem; */
- place-items: center;
- margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
 }
 
 .contact-info article{
@@ -178,4 +208,8 @@ footer img {
 
 .bold span{
   font-weight: 400;
+}
+
+fieldset{
+  border: none;
 }
