@@ -189,8 +189,11 @@ p, h2{
   font-weight: 300;
 }
 
-.connect, .employees-heading{
-  text-align: center;
+.address{
+  font-weight: 400;
+}
+address{
+  font-weight: 300;
 }
 
 .employees{
