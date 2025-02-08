@@ -42,22 +42,31 @@ nav a{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 1rem 0;
+  margin-top: 5.5rem;
 }
 
 .first_section h2{
   grid-column: 1 / 4;
   justify-self: center;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #212529;
+  padding-bottom: 1rem;
 }
 
 .first_section p{
   text-align: justify;
   padding: 0 1rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+  font-size: 0.95rem;
 }
 
 .second_section{
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 4.5rem;
 }
 
 .second_section div{
@@ -70,6 +79,10 @@ figure img{
 
 .second_section h2{
   text-align: center;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #212529;
+  padding-bottom: 0.5rem;
 }
 
 .hero {
@@ -127,6 +140,7 @@ a {
 }
 
 footer{
+  margin-top: 2.5rem;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
@@ -190,7 +204,7 @@ p, h2{
 }
 
 .employees img{
-  box-shadow: 0 0 4px #212529;
+  box-shadow: 0 0 2px #212529;
 }
 
 figcaption{
@@ -211,7 +225,7 @@ figcaption{
 }
 
 .contact-info iframe{
-  justify-self: end;
+  justify-self: center;
   border: none;
 }
 
@@ -234,10 +248,47 @@ figcaption{
 
 fieldset{
   border: none;
+  display: flex;
+  flex-direction: column;
 }
 
+label{
+  margin-bottom: 0.2rem;
+}
 
+.purpose{
+  color: #212529;
+}
 
-input[type=text]{
-  color: red;
+.radio {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.3rem;
+}
+
+input[type=text], input[type=email]{
+  padding: 0.4rem;
+  width: 200px;
+  border: 1px solid #6c757d;
+  outline: none;
+  color: #212529;
+  font-size: 0.9rem;
+  font-weight: 300;
+}
+
+form button{
+  padding: 7px 16px;
+  width: fit-content;
+  background-color: #07bfff;
+  color: var(--accent1-color);
+  border: none;
+  font-weight: 300;
+  border-radius: 3px;
+}
+
+form button:hover{
+  background-color: #38c9fa;
+  cursor: pointer;
 }
