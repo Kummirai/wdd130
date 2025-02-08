@@ -35,6 +35,7 @@ nav a{
   display: block;
   padding: 2rem;
   color: var(--primary-color);
+  font-weight: 300;
 }
 
 .first_section{
@@ -171,7 +172,9 @@ p, h2{
   text-align: center;
   margin: auto;
   padding: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.6rem;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 
 .connect, .employees-heading{
@@ -179,17 +182,28 @@ p, h2{
 }
 
 .employees{
+  box-sizing: border-box;
   display: flex;
+  padding: 2.5rem;
   height: 300px;
+  margin: 0 0 2.5rem 0;
 }
 
+.employees img{
+  box-shadow: 0 0 4px #212529;
+}
+
+figcaption{
+  font-weight: 300;
+  padding: 0.5rem 0;
+}
 
 .contact-info{
   height: 400;
-  background-color: #f7f7f7;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: auto;
+  padding-top: 2rem;
 }
 
 .contact-info article{
@@ -201,9 +215,17 @@ p, h2{
   border: none;
 }
 
+.contact-info h2, form h2{
+  font-weight: 300;
+  font-size: 1.2rem;
+  color: #212529;
+  padding: 0 0 0.3rem 0;
+}
 
-.bold{
-  font-weight: 600;
+.contact-info p{
+  line-height: 1.6rem;
+  font-size: 0.9rem;
+  font-weight: 300;
 }
 
 .bold span{
@@ -212,4 +234,10 @@ p, h2{
 
 fieldset{
   border: none;
+}
+
+
+
+input[type=text]{
+  color: red;
 }
