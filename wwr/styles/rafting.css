@@ -3,6 +3,19 @@
   --secondary-color: #ef8354;
   --accent1-color: #ffffff;
   --accent2-color: #e4e4e4;
+
+  --orange-peel: #ff9d01;
+  --cod-gray: #070707;
+  --cod-gray-transparent: #0707077a;
+  --cod-gray-transparent-2: #07070791;
+  --white: #ffffff;
+  --irish-coffee: #543b22;
+  --sushi: #7aba44;
+  --dove-gray: #666666;
+  --forest-green: #387c29;
+  --clover: #30531a;
+  --korma: #9d430f;
+  --mid-gray: #5c5c64;
 }
 
 body {
@@ -27,7 +40,7 @@ header img {
   margin-left: 6rem;
 }
 
-nav{
+nav {
   display: flex;
 }
 
@@ -36,7 +49,7 @@ nav a {
   padding: 2rem;
   color: var(--primary-color);
   font-weight: 300;
-  text-decoration: none; /* Moved from 'a' selector */
+  text-decoration: none;
 }
 
 .first_section {
@@ -51,7 +64,7 @@ nav a {
   justify-self: center;
   font-weight: 300;
   font-size: 1.3rem;
-  color: #212529;
+  color: var(--cod-gray);
   padding-bottom: 1rem;
 }
 
@@ -78,7 +91,8 @@ figure img {
   width: 100%;
 }
 
-.second_section h2 { /* Consolidated h2 styles */
+.second_section h2 {
+  /* Consolidated h2 styles */
   text-align: center;
   font-weight: 300;
   font-size: 1.3rem;
@@ -89,12 +103,13 @@ figure img {
 .hero {
   position: relative;
   background-color: #ef8354;
+  width: 100%;
 }
 
 .hero h1 {
   font-family: "Dancing script", sans-serif;
-  color: var(--primary-color);
-  background-color: #ffffffb9;
+  color: var(--white);
+  background-color: var(--cod-gray-transparent-2);
   position: absolute;
   top: 25%;
   left: 50%;
@@ -105,13 +120,14 @@ figure img {
   font-size: 3rem;
 }
 
-a { /* Consolidated text-decoration style here */
+a {
+  /* Consolidated text-decoration style here */
   text-decoration: none;
 }
 
 .hero article {
   width: 80%;
-  background-color: #2d3142d3;
+  background-color: var(--cod-gray-transparent-2);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -133,9 +149,10 @@ a { /* Consolidated text-decoration style here */
 
 .hero article p {
   color: var(--accent1-color);
-  padding: 0.5rem;
+  width: 70%;
+  padding: 1rem;
   font-weight: 300;
-  line-height: 1.3rem;
+  line-height: 1.4rem;
   text-align: justify;
 }
 
@@ -147,14 +164,13 @@ footer {
   justify-content: space-between;
 }
 
-footer nav { 
+footer nav {
   right: 2rem;
 }
 
 footer a {
   padding: 1rem;
 }
-
 
 footer img {
   width: 1rem;
@@ -175,14 +191,16 @@ footer img {
   margin: 1rem;
 }
 
-.employees-heading h2, .connect h2 { 
+.employees-heading h2,
+.connect h2 {
   font-weight: 300;
   font-size: 2.5rem;
   color: #212529;
   text-align: center;
 }
 
-.connect p, .employees-heading p { 
+.connect p,
+.employees-heading p {
   width: 50%;
   text-align: center;
   margin: auto;
@@ -192,7 +210,8 @@ footer img {
   font-weight: 300;
 }
 
-.address, address {  
+.address,
+address {
   font-weight: 400;
 }
 
@@ -229,7 +248,8 @@ figcaption {
   border: none;
 }
 
-.contact-info h2, form h2 { 
+.contact-info h2,
+form h2 {
   font-weight: 300;
   font-size: 1.2rem;
   color: #6c757d;
