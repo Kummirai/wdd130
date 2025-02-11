@@ -1,28 +1,18 @@
 :root {
-  --primary-color: #6c757d;
   --secondary-color: #ef8354;
-  --accent1-color: #ffffff;
+  --white-color: #ffffff;
   --accent2-color: #e4e4e4;
-
   --orange-peel: #ff9d01;
   --cod-gray: #070707;
   --cod-gray-transparent: #0707077a;
   --cod-gray-transparent-2: #07070791;
-  --white: #ffffff;
-  --irish-coffee: #543b22;
-  --sushi: #7aba44;
-  --dove-gray: #666666;
-  --forest-green: #387c29;
-  --clover: #30531a;
-  --korma: #9d430f;
-  --mid-gray: #5c5c64;
 }
 
 body {
   font-family: Roboto, Arial, san-serif;
   font-size: 15px;
   box-sizing: border-box;
-  color: var(--primary-color);
+  color: var(--cod-grayry-color);
 }
 
 header {
@@ -47,7 +37,7 @@ nav {
 nav a {
   display: block;
   padding: 2rem;
-  color: var(--primary-color);
+  color: var(--cod-grayry-color);
   font-weight: 300;
   text-decoration: none;
 }
@@ -62,7 +52,7 @@ nav a {
 .first_section h2 {
   grid-column: 1 / 4;
   justify-self: center;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.3rem;
   color: var(--cod-gray);
   padding-bottom: 1rem;
@@ -94,7 +84,7 @@ figure img {
 .second_section h2 {
   /* Consolidated h2 styles */
   text-align: center;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.3rem;
   color: #212529;
   padding-bottom: 0.5rem;
@@ -108,7 +98,7 @@ figure img {
 
 .hero h1 {
   font-family: "Dancing script", sans-serif;
-  color: var(--white);
+  color: var(--accent2-color);
   background-color: var(--cod-gray-transparent-2);
   position: absolute;
   top: 25%;
@@ -148,7 +138,7 @@ a {
 }
 
 .hero article p {
-  color: var(--accent1-color);
+  color: var(--white-color);
   width: 70%;
   padding: 1rem;
   font-weight: 300;
@@ -250,7 +240,7 @@ figcaption {
 
 .contact-info h2,
 form h2 {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.2rem;
   color: #6c757d;
   padding: 0 0 0.3rem 0;
