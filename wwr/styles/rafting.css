@@ -2,10 +2,10 @@
   --secondary-color: #ef8354;
   --white-color: #ffffff;
   --accent2-color: #e4e4e4;
-  --orange-peel: #ff9d01;
+  --orange-peel: #ff9d00;
   --cod-gray: #070707;
   --cod-gray-transparent: #0707077a;
-  --cod-gray-transparent-2: #0e0e0e91;
+  --cod-gray-transparent-2: #00000098;
 }
 * {
   margin: 0;
@@ -30,7 +30,7 @@ header {
 }
 
 header img {
-  width: 4rem;
+  width: 3rem;
   justify-self: flex-start;
   margin-left: 6rem;
 }
@@ -80,10 +80,12 @@ nav a {
 
 .second_section div {
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 figure img {
-  width: 100%;
+  width: 200px;
 }
 
 .second_section h2 {
@@ -285,8 +287,8 @@ label {
 
 .home-page .heading {
   position: absolute;
-  bottom: 150px;
-  left: 100px;
+  bottom: 10rem;
+  left: 2rem;
   padding: 1.5rem;
   background-color: var(--cod-gray-transparent-2);
   display: flex;
@@ -295,16 +297,16 @@ label {
 }
 
 .home-page .heading h1 {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--accent2-color);
   z-index: 1;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 .home-page .heading h2 {
   font-size: 3.5rem;
   color: var(--accent2-color);
-  z-index: 1;
+  font-weight: 600;
 }
 
 .home-page form {
@@ -361,4 +363,25 @@ label {
 .home-page button[type="submit"]:hover {
   background-color: var(--cod-gray-transparent);
   color: var(--orange-peel);
+}
+
+.main-page {
+  position: relative;
+}
+
+.more-activities {
+  position: absolute;
+  bottom: 10rem;
+  right: 2rem;
+  background-color: var(--cod-gray-transparent-2);
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1rem;
+  border-radius: 0.2rem;
+}
+
+.more-activities img{
+  width: 270px;
 }
