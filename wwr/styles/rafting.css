@@ -21,18 +21,12 @@ body {
   height: 100vh;
 }
 
-body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 header {
     background-color: #333; /* Example header color */
     color: white;
     padding: 1rem 0;
     display: flex;
-    justify-content: space-between; /* Align logo and nav */
+    justify-content: space-between; 
     align-items: center;
 }
 
@@ -425,8 +419,6 @@ label {
 
 /*Trips pages /* styles/style.css */
 
-
-
 main {
     padding: 20px;
 }
@@ -445,8 +437,9 @@ main {
 
 .call-to-action {
     display: inline-block;
+    margin: 20px 0 0 0;
     padding: 10px 20px;
-    background-color: #007bff; /* Example button color */
+    background-color: var(--orange-peel);
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -504,6 +497,11 @@ th, td {
 
 th {
     background-color: #f0f0f0;
+}
+
+.trips{
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 footer {
