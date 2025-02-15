@@ -17,7 +17,7 @@ body {
   font-family: Roboto, Arial, san-serif;
   font-size: 15px;
   box-sizing: border-box;
-  color: var(--cod-grayry-color);
+  color: var(--cod-gray-color);
   height: 100vh;
 }
 
@@ -26,11 +26,11 @@ header {
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
   padding: 1rem 0;
-  background-color: #212529;
+  background-color: var(--cod-gray);
 }
 
 header img {
-  width: 6rem;
+  width: 4rem;
   justify-self: flex-start;
   margin-left: 6rem;
 }
@@ -282,12 +282,13 @@ label {
 
 .home-page .heading {
   position: absolute;
-  bottom: 300px;
+  bottom: 200px;
   left: 100px;
-  padding: 2rem;
+  padding: 1.5rem;
   background-color: var(--cod-gray-transparent-2);
+  display: flex;
+  flex-direction: column;
 }
-
 
 .home-page .heading h1 {
   font-size: 1.5rem;
@@ -300,4 +301,42 @@ label {
   font-size: 3.5rem;
   color: var(--accent2-color);
   z-index: 1;
+}
+
+.home-page form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1rem 0;
+}
+
+.home-page form p {
+  color: var(--accent2-color);
+  padding: 0.5rem 0;
+  font-weight: 300;
+}
+
+.home-page input {
+  width: 20rem;
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+  color: var(--cod-gray);
+  font-size: 0.95rem;
+}
+
+.home-page button {
+  width: fit-content;
+  background-color: var(--cod-gray);
+  color: var(--accent2-color);
+  padding: 0.5rem 1rem;
+  border: none;
+  font-size: 0.9rem;
+  border-radius: 1rem;
+}
+
+
+.home-page .explore{
+  background-color: orange;
+  color: var(--cod-gray);
+  
 }
