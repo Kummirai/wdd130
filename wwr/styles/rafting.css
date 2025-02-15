@@ -7,6 +7,11 @@
   --cod-gray-transparent: #0707077a;
   --cod-gray-transparent-2: #57565691;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: Roboto, Arial, san-serif;
@@ -21,6 +26,7 @@ header {
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
   padding: 1rem 0;
+  background-color: #212529;
 }
 
 header img {
@@ -36,7 +42,7 @@ nav {
 nav a {
   display: block;
   padding: 1rem 2rem;
-  color: var(--cod-grayry-color);
+  color: var(--accent2-color);
   font-weight: 400;
   text-decoration: none;
 }
@@ -263,13 +269,35 @@ label {
   margin-bottom: 0.2rem;
 }
 
-
 /* Homepage styles */
 
-.home-page{
+.home-page {
+  width: 100%;
+  position: relative;
+}
+
+.home-page img {
   width: 100%;
 }
 
-.home-page img{
-  width: 100%;
+.home-page .heading {
+  position: absolute;
+  bottom: 300px;
+  left: 100px;
+  padding: 2rem;
+  background-color: var(--cod-gray-transparent-2);
+}
+
+
+.home-page .heading h1 {
+  font-size: 1.5rem;
+  color: var(--accent2-color);
+  z-index: 1;
+  font-weight: 400;
+}
+
+.home-page .heading h2 {
+  font-size: 3.5rem;
+  color: var(--accent2-color);
+  z-index: 1;
 }
