@@ -211,6 +211,8 @@ address {
 .employees {
   box-sizing: border-box;
   display: flex;
+  align-items: center;
+  justify-content: space-around;
   padding: 2.5rem;
   height: 300px;
   margin: 0 0 2.5rem 0;
@@ -218,6 +220,7 @@ address {
 
 .employees img {
   box-shadow: 0 0 2px #212529;
+  width: 300px;
 }
 
 figcaption {
@@ -288,7 +291,7 @@ label {
   background-color: var(--cod-gray-transparent-2);
   display: flex;
   flex-direction: column;
-  border-radius: 0.3rem;
+  border-radius: 0.4rem;
 }
 
 .home-page .heading h1 {
