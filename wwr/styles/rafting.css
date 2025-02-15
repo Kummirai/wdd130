@@ -5,7 +5,7 @@
   --orange-peel: #ff9d01;
   --cod-gray: #070707;
   --cod-gray-transparent: #0707077a;
-  --cod-gray-transparent-2: #07070791;
+  --cod-gray-transparent-2: #57565691;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
   font-size: 15px;
   box-sizing: border-box;
   color: var(--cod-grayry-color);
+  height: 100vh;
 }
 
 header {
@@ -20,12 +21,10 @@ header {
   grid-template-columns: repeat(2, 1fr);
   place-items: center;
   padding: 1rem 0;
-  border-bottom: 1px solid var(--accent2-color);
-  margin-bottom: 2rem;
 }
 
 header img {
-  width: 8rem;
+  width: 6rem;
   justify-self: flex-start;
   margin-left: 6rem;
 }
@@ -36,9 +35,9 @@ nav {
 
 nav a {
   display: block;
-  padding: 2rem;
+  padding: 1rem 2rem;
   color: var(--cod-grayry-color);
-  font-weight: 300;
+  font-weight: 400;
   text-decoration: none;
 }
 
@@ -82,7 +81,6 @@ figure img {
 }
 
 .second_section h2 {
-  /* Consolidated h2 styles */
   text-align: center;
   font-weight: 400;
   font-size: 1.3rem;
@@ -111,7 +109,6 @@ figure img {
 }
 
 a {
-  /* Consolidated text-decoration style here */
   text-decoration: none;
 }
 
@@ -264,4 +261,15 @@ fieldset {
 
 label {
   margin-bottom: 0.2rem;
+}
+
+
+/* Homepage styles */
+
+.home-page{
+  width: 100%;
+}
+
+.home-page img{
+  width: 100%;
 }
