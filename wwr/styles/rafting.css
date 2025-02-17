@@ -119,12 +119,16 @@ figure img {
   border-radius: 5px;
 }
 
-.second_section h2 {
+.second_section h2, #trip-table h2 {
   text-align: center;
   font-weight: 400;
   font-size: 1.5rem;
   color: #212529;
   padding-bottom: 2.5rem;
+}
+
+#trip-table h2{
+  padding: 2.5rem 0;
 }
 
 .hero {
