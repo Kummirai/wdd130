@@ -449,6 +449,7 @@ label {
 }
 
 .action-call{
+  margin: 30px 0 50px 0;
   width: 100%;
   display: flex;
   align-items: center;
@@ -456,7 +457,6 @@ label {
 }
 
 .call-to-action {
-  margin: 30px 0 0 0;
   padding: 10px 20px;
   background-color: var(--orange-peel);
   color: white;
