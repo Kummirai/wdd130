@@ -112,6 +112,7 @@ nav a {
 
 figure img {
   width: 200px;
+  border-radius: 5px;
 }
 
 .second_section h2 {
@@ -119,7 +120,7 @@ figure img {
   font-weight: 400;
   font-size: 1.3rem;
   color: #212529;
-  padding-bottom: 0.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .hero {
