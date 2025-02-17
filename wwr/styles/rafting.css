@@ -455,10 +455,15 @@ main {
   padding: 1rem 0;
 }
 
+.action-call{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .call-to-action {
-  display: inline-block;
-  margin: 20px 0 0 0;
+  margin: 30px 0 0 0;
   padding: 10px 20px;
   background-color: var(--orange-peel);
   color: white;
