@@ -35,16 +35,7 @@ header {
   margin-left: 20px;
 }
 
-nav {
-  margin-right: 20px;
-}
 
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  padding: 5px 10px;
-}
 
 nav a:hover {
   background-color: #555;
@@ -67,11 +58,13 @@ header img {
 
 nav {
   display: flex;
+  margin-right: 20px;
 }
 
 nav a {
+  margin: 0 1rem;
   display: block;
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   color: var(--accent2-color);
   font-weight: 400;
   text-decoration: none;
