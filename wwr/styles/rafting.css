@@ -369,6 +369,7 @@ label {
 }
 
 .home-page .explore {
+  width: fit-content;
   margin: 0.5rem 0;
   background-color: var(--cod-gray);
   color: var(--accent2-color);
