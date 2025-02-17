@@ -251,7 +251,6 @@ address {
   justify-content: space-around;
   padding: 2.5rem;
   height: 300px;
-  margin: 0 0 2.5rem 0;
 }
 
 .employees img {
@@ -267,8 +266,7 @@ figcaption {
 .contact-info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: auto;
-  padding-top: 2rem;
+  margin: 2.5rem 0 4rem 0;
 }
 
 .contact-info article {
