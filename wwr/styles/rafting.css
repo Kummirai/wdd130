@@ -441,8 +441,8 @@ main {
 }
 
 #hero h1{
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 2.2rem;
+  font-weight: 300;
   color: var(--cod-gray);
   margin: 2rem 0 ;
 }
@@ -464,6 +464,7 @@ main {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  font-weight: 300;
 }
 
 #trip-descriptions {
